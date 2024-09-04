@@ -105,7 +105,6 @@ function InscrireUtilisateur(){
 
     let name = dataForm.get("name")
 
-
     let myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     
