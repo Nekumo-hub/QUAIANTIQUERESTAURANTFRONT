@@ -10,9 +10,7 @@ jobs:
    
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        protocol: ftps
-        port: 22
+      with:        
         server: ftp-projetstudyquaiantique.alwaysdata.net
         username: projetstudyquaiantique
         password: ${{ secrets.ftp_password }}
